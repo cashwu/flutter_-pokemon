@@ -1,3 +1,4 @@
+import 'package:app/myGridView.dart';
 import 'package:flutter/material.dart';
 import 'package:app/mylistview.dart';
 import 'package:app/mylistviewTile.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: "App",
-      home: new MyLayout(),
+      home: new MyGridView(),
     );
   }
 }
