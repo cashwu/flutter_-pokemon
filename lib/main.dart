@@ -1,4 +1,4 @@
-import 'package:app/myStackLayout.dart';
+import 'package:app/myCard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: "App",
-      home: new MyStackLayout(),
+      home: MyCard(),
     );
   }
 }
