@@ -1,4 +1,4 @@
-import 'package:app/myListViewH.dart';
+import 'package:app/myListViewJson.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: "App",
-      home: MyListViewH(),
+      home: MyListViewJson(),
     );
   }
 }
