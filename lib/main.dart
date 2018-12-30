@@ -1,3 +1,4 @@
+import 'package:app/myDrawer.dart';
 import 'package:app/myTabs.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: "App",
-      home: MyTabs(),
+      home: MyDrawer(),
     );
   }
 }
